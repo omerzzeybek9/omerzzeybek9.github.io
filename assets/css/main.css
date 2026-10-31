@@ -747,6 +747,12 @@ section,
   background-color: var(--accent-color);
 }
 
+.hero p.hero-subtitle {
+  margin-top: 14px;
+  font-size: 17px;
+  opacity: 0.85;
+}
+
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
@@ -754,6 +760,10 @@ section,
 
   .hero p {
     font-size: 20px;
+  }
+
+  .hero p.hero-subtitle {
+    font-size: 15px;
   }
 }
 
